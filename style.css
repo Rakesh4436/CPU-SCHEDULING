@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #444;
+    font-weight: 600;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fafafa;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    color: #333;
+}
+
+th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="number"] {
+    width: 90%;
+    padding: 8px;
+    margin: 4px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 10px 5px;
+    cursor: pointer;
+    background-color: #5cb85c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+#addProcess {
+    background-color: #5bc0de;
+}
+
+#addProcess:hover {
+    background-color: #31b0d5;
+}
+
+#runScheduler {
+    background-color: #d9534f;
+}
+
+#runScheduler:hover {
+    background-color: #c9302c;
+}
+
+#removeProcess {
+    background-color: #d9534f;
+}
+
+#ganttChart {
+    position: relative;
+    height: 100px;
+    border: 1px solid #333;
+    margin-bottom: 20px;
+    overflow-x: auto;
+    white-space: nowrap;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+.gantt-block {
+    display: inline-block;
+    height: 100%;
+    position: relative;
+    border-right: 1px solid #333;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    padding: 4px 10px;
+    border-radius: 4px;
+}
+
+.time-labels {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.time-label {
+    position: relative;
+    width: 0;
+}
+
+.stats {
+    margin-top: 20px;
+}
+
+.stats p {
+    font-size: 16px;
+    color: #555;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.algorithm-options {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#rrOptions {
+    display: inline-block;
+    margin-left: 10px;
+}
